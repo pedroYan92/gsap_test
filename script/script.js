@@ -39,6 +39,8 @@ btnMenu.forEach(function (btn) {
     });
   });
 
+  console.log('adding just for the test');
+
   btn.addEventListener('mouseleave', function (e) {
     const mouseOut = gsap.to(e.target, {
       duration: 0.2,
